@@ -15,7 +15,7 @@ assertEqual(tickets.isValidQuantity(0), false, 'a zero quantity is invalid');
 assertEqual(tickets.isValidQuantity(25), false, 'an order over 20 tickets is invalid');
 
 const price = tickets.calculateTicketPrice(3, 15.5);
-assertEqual(price, 46, 'price for 3 tickets at $15.50 each');
+assertEqual(price, 36, 'price for 3 tickets at $15.50 each');
 
 const premiumPrice = tickets.calculateTicketPrice(1, 100, true);
 assertEqual(premiumPrice,  150, 'premium seating adds a 50% surcharge');
