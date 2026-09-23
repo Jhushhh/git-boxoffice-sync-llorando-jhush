@@ -36,14 +36,14 @@ Task 5 – Three-Way Merge
 The three-way conflict was more difficult because a third line of work had changed the same shared function. The final code kept the group discount, rounding, and VIP surcharge.
 
 Task 6 – Flat $10 Discount and Rebase
-![Task 6](screenshots/Task6.png)
+![Task 6](screenshots/task6.png)
 
 
 
 The flat $10 discount was added to the shared pricing function. The initial push was rejected because Clone A was behind the remote branch. I then fetched the latest changes, rebased my work, resolved conflicts in more than one file, ran the tests, and pushed without force.
 
 Task 7 – Final Merge and Tag
-![Task 7](screenshots/Task7.png)
+![Task 7](screenshots/Task7 .png)
 
 
 
